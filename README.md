@@ -1,4 +1,20 @@
-CyberSource provides a daily XML file with the transactions from the previous day. One customer's daily file contains about 20GB of XML. Each record has about 100 fields. We normalize about half of them into database columns in a relational database, and skip the fields that don't seem to matter to our application.
+5-10 min intro
+15-25 min cyber
+5-10 rails questions
+5-10 questions
+
+
+What's a rails pattern or community practice that you disagree with?
+
+What is a service object? What is a potential pitfall of using service objects?
+
+Is Rails a good place to build a REST api for a React.js frontend?
+
+Contrived: what would it take to translate the elevator coding problem into a distributed architecture?
+
+
+
+CyberSource is a payment gateway that provides a daily XML file with the transactions from the previous day. One customer's daily file contains about 20GB of XML. Each record has about 100 fields. We normalize about half of them into database columns in a relational database, and skip the fields that don't seem to matter to our application.
 
 Q: What problems will we run into parsing these files? How would you load the data?
 
